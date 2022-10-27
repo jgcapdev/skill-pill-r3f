@@ -4,7 +4,7 @@ import { useGLTF } from '@react-three/drei';
 const Adam = ({ position, args, ...props }) => {
   const { nodes, materials } = useGLTF('/assets/adam.gltf');
 
-  /*
+  /* Physics
   const [ref] = useSphere((index) => ({
     type: 'Dynamic',
     mass: 1,
@@ -14,6 +14,7 @@ const Adam = ({ position, args, ...props }) => {
   }));
   */
 
+  // Add ref={ref} to enable physics
   return (
     <group {...props} position={position} dispose={null}>
       <mesh

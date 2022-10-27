@@ -1,7 +1,7 @@
 import { useBox } from '@react-three/cannon';
 
 const BaseBox = ({ position, args, color, wireframe = false, ...props }) => {
-  /*
+  /* Physics
   const [ref] = useBox(() => ({
     type: 'Static',
     mass: 1,
@@ -11,6 +11,7 @@ const BaseBox = ({ position, args, color, wireframe = false, ...props }) => {
   }));
   */
 
+  // Add ref={ref} to enable physics
   return (
     <mesh castShadow position={position}>
       <boxGeometry args={args} />

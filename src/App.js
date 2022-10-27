@@ -12,6 +12,7 @@ function App() {
     <div>
       <Canvas shadows camera={{ position: [0, 3, 5], fov: 70 }}>
         <Lights />
+
         <Physics gravity={[0, -9.8, 0]}>
           <Cube wireframe position={[0, 1, 0]} args={[1, 1, 1]} color="red" />
           <Cube position={[-3, 1, 0]} args={[1, 1, 1]} color="yellow" />
@@ -22,7 +23,7 @@ function App() {
           <Floor rotation={[Math.PI / -2, 0, 0]} color={'#272936'} />
         </Physics>
 
-        <OrbitControls />
+        <OrbitControls maxPolarAngle={Math.PI / 2.1} enablePan={false} enableZoom={false} />
       </Canvas>
     </div>
   );
