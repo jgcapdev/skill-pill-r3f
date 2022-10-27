@@ -6,8 +6,7 @@
 
 - [✨ How to run the project](#-how-to-run-the-project)
 - [🔧 Libraries](#-libraries)
-- [🔥 Why we need to use R3F](#-why-we-need-to-use-r3f)
-- [🚀 Deployment](#-deployment)
+- [🔥 Why we need to use R3F](#-why-we-need-to-use-R3F)
 
 ## ✨ How to run the project
 
