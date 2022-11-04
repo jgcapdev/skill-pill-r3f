@@ -1,6 +1,6 @@
 import { useBox } from '@react-three/cannon';
 
-const BaseBox = ({ position, args, color, wireframe = false, ...props }) => {
+const Cube = ({ position, args, color, wireframe = false, ...props }) => {
   /* Physics
   const [ref] = useBox(() => ({
     type: 'Static',
@@ -20,4 +20,4 @@ const BaseBox = ({ position, args, color, wireframe = false, ...props }) => {
   );
 };
 
-export default BaseBox;
+export default Cube;
