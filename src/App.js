@@ -11,19 +11,19 @@ function App() {
   return (
     <div>
       <Canvas shadows camera={{ position: [0, 3, 5], fov: 70 }}>
-        <Lights />
+        {/* <Lights /> */}
 
-        <Physics gravity={[0, -9.8, 0]}>
-          <Cube wireframe position={[0, 1, 0]} args={[1, 1, 1]} color="red" />
-          <Cube position={[-3, 1, 0]} args={[1, 1, 1]} color="yellow" />
-          <Cube position={[3, 1, 0]} args={[1, 1, 1]} color="green" />
+        {/* <Physics gravity={[0, -9.8, 0]}> */}
+        {/* <Cube wireframe position={[0, 1, 0]} args={[1, 1, 1]} color="red" /> */}
+        {/* <Cube position={[-3, 1, 0]} args={[1, 1, 1]} color="yellow" /> */}
+        {/* <Cube position={[3, 1, 0]} args={[1, 1, 1]} color="green" /> */}
 
-          <Adam position={[-5, 2, 0]} args={[0.01]} />
+        {/* <Adam position={[-5, 2, 0]} args={[0.01]} /> */}
 
-          <Floor rotation={[Math.PI / -2, 0, 0]} color={'#272936'} />
-        </Physics>
+        {/* <Floor rotation={[Math.PI / -2, 0, 0]} color={'#272936'} /> */}
+        {/* </Physics> */}
 
-        <OrbitControls maxPolarAngle={Math.PI / 2.1} enablePan={false} enableZoom={false} />
+        {/* <OrbitControls maxPolarAngle={Math.PI / 2.1} enablePan={false} enableZoom={false} /> */}
       </Canvas>
     </div>
   );
